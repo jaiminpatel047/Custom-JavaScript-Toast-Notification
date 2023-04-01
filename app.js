@@ -21,7 +21,7 @@ function createTost(type, icon, title, text){
     <i class="fa-solid fa-xmark" onclick=(this.parentElement.remove())></i>
   </div>`
   notifications.append(newTost);
-  // newTost.setTimeOut = setTimeout(()=>newTost.remove(), 5000)
+  newTost.setTimeOut = setTimeout(()=>newTost.remove(), 5000)
 }    
 
 
